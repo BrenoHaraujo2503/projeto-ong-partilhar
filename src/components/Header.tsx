@@ -1,8 +1,8 @@
 import logo from '../assets/logo.svg'
 export function Header() {
   return (
-    <header className="bg-green-200 p-4">
-      <div className="container mx-auto flex items-center justify-between">
+    <header className="bg-green-200 p-4 w-full top-0 fixed z-50">
+      <div className="container mx-auto flex items-center justify-between ">
         <nav className="hidden md:flex space-x-8 text-green-900">
           <a href="#quem-somos" className="hover:text-green-700">
             Quem Somos
